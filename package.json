@@ -1,0 +1,39 @@
+{
+  "name": "aero-track-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Node.js TypeScript backend for a flight tracking app powered by AirLabs.",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/server.js",
+    "check": "tsc --noEmit",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "helmet": "^8.1.0",
+    "http-status-codes": "^2.3.0",
+    "zod": "^3.24.4"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.18",
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.15.3",
+    "eslint": "^9.25.1",
+    "@eslint/js": "^9.25.1",
+    "globals": "^16.0.0",
+    "prettier": "^3.5.3",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.30.1"
+  }
+}
