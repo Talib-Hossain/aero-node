@@ -1,6 +1,6 @@
 # Aero Track Backend
 
-Node.js + TypeScript backend starter for a personal flight tracking app powered by the AirLabs API.
+Node.js + TypeScript backend for a personal flight tracking app powered by the AirLabs API.
 
 ## Stack
 
